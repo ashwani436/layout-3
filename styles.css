@@ -186,7 +186,7 @@ position: relative;
 #lowest_border{
 position: relative;
 margin-top: 10px;
-border-bottom: 1px solid #d2d7da;
+border-bottom: 1px solid gray;
 }
 #foot{
 position: relative;

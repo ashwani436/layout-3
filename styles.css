@@ -106,7 +106,11 @@ margin-top: 30px;
 margin-left: 0px;
 font-size: 20px;
 font-family: sans-serif;
-
+}
+.left_div{
+  position: relative;
+  margin-left: 30px;
+  margin-right: 50px;
 }
 .right_div{
 
@@ -116,12 +120,9 @@ font-family: sans-serif;
 
 }
 .upper{
-
   position: relative;
   background-color: #F5F5F5;
-  /* border: 1px solid gray; */
   border: 1px solid #8080804d;
-  /* border: 1px solid gray; */
   height: 123px;
   width: 400px;
 }
@@ -191,5 +192,8 @@ border-bottom: 1px solid gray;
 #foot{
 position: relative;
 margin-top: 50px;
+}
+@media only screen and (min-width: 1526px) {
+  .right_div{width: 80%;}
 }
 
